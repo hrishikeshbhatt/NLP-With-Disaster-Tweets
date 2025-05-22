@@ -4,12 +4,12 @@ Used RNN and BERT-based models to identify tweets denoting natural disasters
 Here is how they performed (test set accuracy) - 
 
   Base Models:
-    - Logistic Regression with TF-IDF Vectorization: ~57% accuracy
-    - SVM with TF-IDF Vectorization: ~58% accuracy
+   - Logistic Regression with TF-IDF Vectorization: ~57% accuracy
+   - SVM with TF-IDF Vectorization: ~58% accuracy
     
   RNN-Based Models (using GloVe 300d embeddings):
-    - Bidirectional LSTM layer + Simple LSTM layer with single dense layer: ~81.3% accuracy
-    - Two Bidirectional LSTM layers with 2 dense layers: ~81.5% accuracy
+   - Bidirectional LSTM layer + Simple LSTM layer with single dense layer: ~81.3% accuracy
+   - Two Bidirectional LSTM layers with 2 dense layers: ~81.5% accuracy
     
   Transformer-Based Models (using GloVe 300d embeddings):
    - Pre-trained BERT with 12 layers and self-attention: ~82.2% accuracy
